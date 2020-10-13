@@ -1,0 +1,260 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8438084712211495259
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8438084712211495269}
+  - component: {fileID: 8438084712211495268}
+  m_Layer: 0
+  m_Name: Audio Manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8438084712211495269
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8438084712211495259}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -41.1, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8438084712211495268
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8438084712211495259}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 49e496ef51f515543b029cdc55a54de8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - name: Main Theme
+    Audio: {fileID: 8300000, guid: 509ffa96f3167da43a39ff6c4a919366, type: 3}
+    Volume: 0.509
+    pitch: 1
+    Source: {fileID: 0}
+    Output: {fileID: -7956390489657824694, guid: 8bc55fbf28574eb4ebf3296a2f30520c,
+      type: 2}
+    loop: 1
+    play: 0
+  - name: Button Click
+    Audio: {fileID: 8300000, guid: bdb36a8a61e27c3458a77630b2911997, type: 3}
+    Volume: 1
+    pitch: 0.85
+    Source: {fileID: 0}
+    Output: {fileID: 2046060106580679742, guid: 8bc55fbf28574eb4ebf3296a2f30520c,
+      type: 2}
+    loop: 0
+    play: 0
+  - name: Bat flying
+    Audio: {fileID: 8300000, guid: bdcfc504ecd682b4ca88148667850cce, type: 3}
+    Volume: 0.05
+    pitch: 0.5
+    Source: {fileID: 0}
+    Output: {fileID: 2046060106580679742, guid: 8bc55fbf28574eb4ebf3296a2f30520c,
+      type: 2}
+    loop: 1
+    play: 0
+  - name: Bat dying
+    Audio: {fileID: 8300000, guid: 163a351f54a1e3448815376d833690c5, type: 3}
+    Volume: 0.2
+    pitch: 1.1
+    Source: {fileID: 0}
+    Output: {fileID: 2046060106580679742, guid: 8bc55fbf28574eb4ebf3296a2f30520c,
+      type: 2}
+    loop: 0
+    play: 0
+  - name: CheckPoint
+    Audio: {fileID: 8300000, guid: a22a10395c89ace469fb996d2cbef751, type: 3}
+    Volume: 0.5
+    pitch: 1.1
+    Source: {fileID: 0}
+    Output: {fileID: 2046060106580679742, guid: 8bc55fbf28574eb4ebf3296a2f30520c,
+      type: 2}
+    loop: 0
+    play: 0
+  - name: Ground hit
+    Audio: {fileID: 8300000, guid: af75ba9cb56f3e048976fb95c63c374c, type: 3}
+    Volume: 0.2
+    pitch: 3
+    Source: {fileID: 0}
+    Output: {fileID: 2046060106580679742, guid: 8bc55fbf28574eb4ebf3296a2f30520c,
+      type: 2}
+    loop: 0
+    play: 0
+  - name: Lvl clear
+    Audio: {fileID: 8300000, guid: 26d81c0a573665b4682f7c04b8e6dd1b, type: 3}
+    Volume: 0.7
+    pitch: 0.8
+    Source: {fileID: 0}
+    Output: {fileID: 2046060106580679742, guid: 8bc55fbf28574eb4ebf3296a2f30520c,
+      type: 2}
+    loop: 0
+    play: 0
+  - name: Zombie Die
+    Audio: {fileID: 8300000, guid: 2d7d38928a69c0f4897bbf698f7f2dd3, type: 3}
+    Volume: 0.3
+    pitch: 0.8
+    Source: {fileID: 0}
+    Output: {fileID: 2046060106580679742, guid: 8bc55fbf28574eb4ebf3296a2f30520c,
+      type: 2}
+    loop: 0
+    play: 0
+  - name: Help me
+    Audio: {fileID: 8300000, guid: 27b32c6f9d09c2d4a8ce38107b697e72, type: 3}
+    Volume: 0.08
+    pitch: 1
+    Source: {fileID: 0}
+    Output: {fileID: 2046060106580679742, guid: 8bc55fbf28574eb4ebf3296a2f30520c,
+      type: 2}
+    loop: 1
+    play: 0
+  - name: Thank you
+    Audio: {fileID: 8300000, guid: 30cf1f6755003b7458af8da890cd4c85, type: 3}
+    Volume: 0.3
+    pitch: 1.5
+    Source: {fileID: 0}
+    Output: {fileID: 2046060106580679742, guid: 8bc55fbf28574eb4ebf3296a2f30520c,
+      type: 2}
+    loop: 0
+    play: 0
+  - name: Safe zone
+    Audio: {fileID: 8300000, guid: c58318058641f3449a0c907d0282f875, type: 3}
+    Volume: 0.1
+    pitch: 0.5
+    Source: {fileID: 0}
+    Output: {fileID: 2046060106580679742, guid: 8bc55fbf28574eb4ebf3296a2f30520c,
+      type: 2}
+    loop: 0
+    play: 0
+  - name: Fire Launch
+    Audio: {fileID: 8300000, guid: 670ab5bb6cfa8c3429d6ddd3f28fd420, type: 3}
+    Volume: 0.15
+    pitch: 0.4
+    Source: {fileID: 0}
+    Output: {fileID: 2046060106580679742, guid: 8bc55fbf28574eb4ebf3296a2f30520c,
+      type: 2}
+    loop: 0
+    play: 0
+  - name: Blast
+    Audio: {fileID: 8300000, guid: 8267c0f9ab5ef6a47aa547fd3f04b120, type: 3}
+    Volume: 0.3
+    pitch: 0.5
+    Source: {fileID: 0}
+    Output: {fileID: 2046060106580679742, guid: 8bc55fbf28574eb4ebf3296a2f30520c,
+      type: 2}
+    loop: 0
+    play: 0
+  - name: Laser
+    Audio: {fileID: 8300000, guid: 953d0c41eae0bd04998bb4098e6e7875, type: 3}
+    Volume: 0.05
+    pitch: 0.5
+    Source: {fileID: 0}
+    Output: {fileID: 2046060106580679742, guid: 8bc55fbf28574eb4ebf3296a2f30520c,
+      type: 2}
+    loop: 0
+    play: 0
+  - name: Bullet Collision
+    Audio: {fileID: 8300000, guid: 152be753ca115334bb89a2b154e57c51, type: 3}
+    Volume: 0.6
+    pitch: 0.5
+    Source: {fileID: 0}
+    Output: {fileID: 2046060106580679742, guid: 8bc55fbf28574eb4ebf3296a2f30520c,
+      type: 2}
+    loop: 0
+    play: 0
+  - name: Explosion
+    Audio: {fileID: 8300000, guid: da5967724fad5e34281437193d39a887, type: 3}
+    Volume: 0.8
+    pitch: 0.5
+    Source: {fileID: 0}
+    Output: {fileID: 2046060106580679742, guid: 8bc55fbf28574eb4ebf3296a2f30520c,
+      type: 2}
+    loop: 0
+    play: 0
+  - name: Jetpack
+    Audio: {fileID: 8300000, guid: 3b3f39cced9168a49a04e4db0b66d248, type: 3}
+    Volume: 0.5
+    pitch: 0.5
+    Source: {fileID: 0}
+    Output: {fileID: 0}
+    loop: 1
+    play: 0
+  - name: Scientist die
+    Audio: {fileID: 8300000, guid: 1cf65eba242ed4c4bbe69f02bb0a1765, type: 3}
+    Volume: 0.3
+    pitch: 0.5
+    Source: {fileID: 0}
+    Output: {fileID: 0}
+    loop: 0
+    play: 0
+  - name: Virus Spread
+    Audio: {fileID: 8300000, guid: b67fa7dadae5df44d81900f13cbd4797, type: 3}
+    Volume: 1
+    pitch: 0.5
+    Source: {fileID: 0}
+    Output: {fileID: 0}
+    loop: 0
+    play: 0
+  - name: Boss idle
+    Audio: {fileID: 8300000, guid: 258c9c773f939f24da767272b05bc639, type: 3}
+    Volume: 0.02
+    pitch: 1
+    Source: {fileID: 0}
+    Output: {fileID: 2046060106580679742, guid: 8bc55fbf28574eb4ebf3296a2f30520c,
+      type: 2}
+    loop: 1
+    play: 0
+  - name: Death Panel
+    Audio: {fileID: 8300000, guid: d638a8f2d383f6a4fbe5246c7b815a5c, type: 3}
+    Volume: 0.3
+    pitch: 1
+    Source: {fileID: 0}
+    Output: {fileID: -7956390489657824694, guid: 8bc55fbf28574eb4ebf3296a2f30520c,
+      type: 2}
+    loop: 1
+    play: 0
+  - name: Respawn
+    Audio: {fileID: 8300000, guid: 9ca927d0daf92444b873c60ebe3b4d8b, type: 3}
+    Volume: 0.5
+    pitch: 2
+    Source: {fileID: 0}
+    Output: {fileID: 2046060106580679742, guid: 8bc55fbf28574eb4ebf3296a2f30520c,
+      type: 2}
+    loop: 0
+    play: 0
+  - name: Theme1
+    Audio: {fileID: 8300000, guid: 5762a0f0d89b759448a03068a67b2ee5, type: 3}
+    Volume: 0.2
+    pitch: 1
+    Source: {fileID: 0}
+    Output: {fileID: -7956390489657824694, guid: 8bc55fbf28574eb4ebf3296a2f30520c,
+      type: 2}
+    loop: 1
+    play: 0
+  - name: Theme2
+    Audio: {fileID: 8300000, guid: 851387975ba5ecd47b10791023fb6738, type: 3}
+    Volume: 0.5
+    pitch: 1
+    Source: {fileID: 0}
+    Output: {fileID: -7956390489657824694, guid: 8bc55fbf28574eb4ebf3296a2f30520c,
+      type: 2}
+    loop: 1
+    play: 0
+  MainMixer: {fileID: 24100000, guid: 8bc55fbf28574eb4ebf3296a2f30520c, type: 2}
